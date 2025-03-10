@@ -1,0 +1,54 @@
+{
+  "name": "WeTuli",
+  "id": "com.wetuli.app.twa",
+  "description": "Wetuli Learning App for JAMB/WAEC 2025",
+  "short_name": "Tuli",
+  "theme_color": "#1c2f85",
+  "background_color": "#94b9ff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icon/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "label": "WeTuli App"
+    },
+    {
+      "src": "/icon/icon-512x512.png",
+      "sizes": "512x512",
+      "form_factor": "wide",
+      "type": "image/png",
+      "label": "WeTuli App."
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/dashboard"
+    },
+    {
+      "name": "Settings",
+      "url": "/dashboard/settings"
+    },
+    {
+      "name": "Profile",
+      "url": "/profile"
+    }
+  ],
+  "iarc_rating_id": "xxx"
+}
